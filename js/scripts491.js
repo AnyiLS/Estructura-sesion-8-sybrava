@@ -7,6 +7,7 @@ $(document).ready(function () {
 		$('.modal').css('display', 'block')
 		localStorage.setItem('slide491', 'true')
 		$('.puntero').css('display', 'none')
+		$('.vutom-col').css('display', 'none')
 
 		const exist = []
 
