@@ -49,10 +49,10 @@ body {
 .reproduc {
 	z-index: 1;
 	position: absolute;
-	top: 28.6%;
-    left: 18.8%;
-    width: 62.4%;
-    height: 54.4%;
+	top: 32.6%;
+    left: 24.8%;
+    width: 48.4%;
+    height: 45.4%;
 	border-radius: 2%;
 	display: none;
 }
@@ -94,8 +94,8 @@ body {
 .boton-play {
 	position: absolute;
 	width: 6%;
-	top: 51%;
-    left: 46.8%;
+	top: 49.6%;
+    left: 46.3%;
 	animation-duration: 0.5s !important;
 }
 
