@@ -1,0 +1,241 @@
+body {
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000000;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.container .cover-image {
+	width: auto;
+	height: 100vh;
+}
+
+.start-button {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+.boton-next {
+	position: absolute;
+	width: 26%;
+	height: 10%;
+	top: 81%;
+	left: 8%;
+}
+
+.caja {
+	position: absolute;
+	width: 17.3%;
+    /* height: 10%; */
+    top: 58.2%;
+    left: 3.4%;
+	cursor: pointer;
+}
+
+.caja img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja1 {
+	position: absolute;
+	width: 17.3%;
+    /* height: 10%; */
+    top: 58.2%;
+    left: 12.1%;
+	cursor: pointer;
+}
+
+.caja1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja2 {
+	position: absolute;
+	width: 17.3%;
+    /* height: 10%; */
+    top: 58.2%;
+    left: 20.7%;
+	cursor: pointer;
+}
+
+.caja2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja3 {
+	position: absolute;
+	width: 17.3%;
+    /* height: 10%; */
+    top: 58.2%;
+    left: 29.4%;
+	cursor: pointer;
+}
+
+.caja3 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja4 {
+	position: absolute;
+	width: 17.3%;
+    /* height: 10%; */
+    top: 58.2%;
+    left: 37.9%;
+	cursor: pointer;
+}
+
+.caja4 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja5 {
+	position: absolute;
+	width: 17.3%;
+    /* height: 10%; */
+    top: 58.2%;
+    left: 46.5%;
+	cursor: pointer;
+}
+
+.caja5 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja6 {
+	position: absolute;
+	width: 17.3%;
+    /* height: 10%; */
+    top: 58.2%;
+	right: 27.6%;
+	cursor: pointer;
+}
+
+.caja6 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja7 {
+	position: absolute;
+	width: 17.3%;
+    /* height: 10%; */
+    top: 58.2%;
+	right: 18.9%;
+	cursor: pointer;
+}
+
+.caja7 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja8 {
+	position: absolute;
+	width: 17.3%;
+    /* height: 10%; */
+    top: 58.2%;
+	right:10.3%;
+	cursor: pointer;
+}
+
+.caja8 img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* Respuestas correcta y incorrectas */
+.correcta {
+	position: absolute;
+	width: 43%;
+    /* height: 10%; */
+    top: 34.4%;
+    left: 4.3%;
+	cursor: pointer;
+}
+
+.correcta img {
+	width: 100%;
+	height: 100%;
+}
+
+/* Respuestas correcta y incorrectas */
+
+/* Definimos la animación para el resplandor */
+@keyframes pulseGlow {
+	0% {
+		transform: scale(1);
+		opacity: 0.7;
+	}
+	50% {
+		transform: scale(1.5);
+		opacity: 0.3;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 0.7;
+	}
+}
+
+/* Responsive */
+@media (max-width: 1365px) and (min-height: 768px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: auto;
+		height: 100vh;
+	}
+}
+
+@media (max-height: 767px) {
+	.container {
+		width: auto;
+		height: 100vh;
+	}
+}
+
+@media (min-height: 625px) and (max-height: 1280px) and (max-width: 1024px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: 100vw;
+		height: auto;
+	}
+}
+
+@media (max-height: 624px) and (max-width: 767px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: 100vw;
+		height: auto;
+	}
+}
